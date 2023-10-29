@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e52afb8-ccf0-4580-9bd8-068ebaf0ce3a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/phase-1/evidence/w3-validator-evidence-image-phase-1-txt-added.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/phase-1/evidence/w3-validator-evidence-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/phase-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebTech-Portfolio/phase-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebTech-Portfolio/phase-1/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +40,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/madco/OneDrive/Desktop/Tafe Stuff/Web Technologies/Web-Tech-Website-Portfolio/WebTech-Portfolio/phase-1",
+    "last_opened_file_path": "C:/Users/madco/OneDrive/Desktop/Tafe Stuff/Web Technologies/Web-Tech-Website-Portfolio/WebTech-Portfolio/phase-2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\madco\OneDrive\Desktop\Tafe Stuff\Web Technologies\Web-Tech-Website-Portfolio\WebTech-Portfolio\phase-2" />
       <recent name="C:\Users\madco\OneDrive\Desktop\Tafe Stuff\Web Technologies\Web-Tech-Website-Portfolio\WebTech-Portfolio\phase-1" />
     </key>
   </component>
@@ -65,7 +71,8 @@
       <workItem from="1698137243361" duration="2476000" />
       <workItem from="1698306250856" duration="615000" />
       <workItem from="1698315298987" duration="768000" />
-      <workItem from="1698378655705" duration="13900000" />
+      <workItem from="1698378655705" duration="14273000" />
+      <workItem from="1698553658607" duration="455000" />
     </task>
     <servers />
   </component>
