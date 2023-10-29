@@ -30,15 +30,6 @@ main {
 header p {
     font-size: 14px; 
 }
-.bottom-footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 10px; 
-    border-top: 2px solid #000; 
-}
-footer p {
-    font-size: 14px;
-}
 @media (max-width: 767px) {
     aside {
         display: none;
@@ -50,6 +41,10 @@ footer p {
 @media (min-width: 766px) {
     .hamburger-menu {
         display:none;
+    }
+    main {
+        width: 960px; /* specified in Phase 1 document wireframes to be 960px */
+        margin: 0 auto;
     }
 }
 
