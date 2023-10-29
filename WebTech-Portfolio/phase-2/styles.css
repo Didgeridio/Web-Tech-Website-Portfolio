@@ -41,5 +41,10 @@ footer p {
         display: none;
     }
 }
+@media (min-width: 766px) {
+    .hamburger-menu {
+        display:none;
+    }
+}
 
 
