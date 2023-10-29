@@ -9,7 +9,10 @@
 }
 
 h1 {
-    font-size: 24px; 
+    font-size: 32px; 
+}
+h2 {
+    font-size: 24px;
 }
 
 .hamburger-menu {
@@ -17,6 +20,17 @@ h1 {
     cursor: pointer;
     margin-right: 10px; 
     margin-left: 10px;
+}
+main {
+    padding: 20px; 
+}
+header p {
+    font-size: 14px; 
+}
+@media (max-width: 767px) {
+    aside {
+        display: none;
+    }
 }
 
 
