@@ -3,6 +3,7 @@
     color: #fff;
     padding: 10px; 
     width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,8 +26,15 @@ h2 {
     margin-right: 10px; 
     margin-left: 10px;
 }
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
 main {
-    padding: 20px; 
+    padding: 20px;
+    padding-top: 80px; 
+    align-items: start;
 }
 header p {
     font-size: 14px; 
@@ -36,6 +44,20 @@ article {
     margin-bottom: 10px;
     padding-left: 5px;
     padding-right: 5px; 
+}
+.article-grid {
+    grid-column: span 2;
+}
+.article-columns {
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+aside {
+    border:2px solid #000;
+    padding: 10px;
+    margin-bottom: 10px;
+    grid-column: 3;
 }
 .bottom-footer {
     background-color: #333; 
@@ -53,11 +75,15 @@ footer p {
     nav {
         display:none;
     }
-    .top-header {
-        position: fixed;
+    .content-grid {
+        grid-template-columns: 1fr;
     }
-    main {
-        padding-top: 80px;
+    article, aside {
+        grid-column: span 1;
+    }
+    article {
+        flex: none;
+        max-width: none;
     }
 }
 @media (min-width: 766px) {
@@ -67,6 +93,13 @@ footer p {
     main {
         width: 960px; /* specified in Phase 1 document wireframes to be 960px */
         margin: 0 auto;
+        padding-top: 150px;
+    }
+    nav {
+        position: fixed;
+        top: 80px;
+        width:100%;
+        background-color: #fff;
     }
 }
 
