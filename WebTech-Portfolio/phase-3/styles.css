@@ -1,0 +1,136 @@
+.top-header {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px; 
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #000; 
+}
+nav {
+    border-bottom: 2px solid #000;
+}
+h1 {
+    font-size: 30px; 
+}
+h2 {
+    font-size: 26px;
+}
+.hamburger-menu {
+    font-size: 46px;
+    cursor: pointer;
+    margin-right: 10px; 
+    margin-left: 10px;
+}
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+main {
+    padding: 20px;
+    padding-top: 80px; 
+    align-items: start;
+}
+header p {
+    font-size: 14px; 
+}
+article {
+    border: 2px solid #000;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+.article-grid {
+    grid-column: span 2;
+}
+.article-columns {
+    display: flex;
+    flex-direction: row;
+    gap:10px
+}
+aside {
+    margin-bottom: 10px;
+    grid-column: 3;
+}
+aside section:nth-child(1) {
+    border-top: 2px solid #000;
+}
+.aside-sections {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.aside-sections h3 {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: #333; 
+    color: #fff;
+}
+.aside-sections p {
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.aside-sections footer {
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: lightgray; 
+}  
+.bottom-footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    border-top: 2px solid #000; 
+}
+footer p {
+    font-size: 14px;
+}
+@media (max-width: 767px) {
+    aside {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    .content-grid {
+        grid-template-columns: 1fr; 
+    }
+    .article-grid {
+        grid-template-columns: 1fr; 
+    }
+    .article-columns {
+        flex-direction: column;
+    }
+    main {
+        padding-top: 125px;
+    }
+}
+@media (min-width: 766px) {
+    .hamburger-menu {
+        display:none;
+    }
+    main {
+        width: 80%; /* specified in Phase 1 document wireframes to be 960px but phase 2 requested 70-90%*/
+        margin: 0 auto;
+        padding-top: 150px;
+    }
+    nav {
+        position: fixed;
+        top: 80px;
+        width:100%;
+        background-color: #fff;
+    }
+}
+
+
+
