@@ -120,7 +120,7 @@ footer p {
         display:none;
     }
     main {
-        width: 960px; /* specified in Phase 1 document wireframes to be 960px */
+        width: 80%; /* specified in Phase 1 document wireframes to be 960px but phase 2 requested 70-90%*/
         margin: 0 auto;
         padding-top: 150px;
     }
