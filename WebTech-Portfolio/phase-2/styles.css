@@ -54,11 +54,41 @@ article {
     gap:10px
 }
 aside {
-    border:2px solid #000;
-    padding: 10px;
     margin-bottom: 10px;
     grid-column: 3;
 }
+aside section:nth-child(1) {
+    border-top: 2px solid #000;
+}
+.aside-sections {
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+.aside-sections h3 {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: #333; 
+    color: #fff;
+}
+.aside-sections p {
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.aside-sections footer {
+    font-size: 12px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: lightgray; 
+}
+    
 .bottom-footer {
     background-color: #333; 
     color: #fff; 
