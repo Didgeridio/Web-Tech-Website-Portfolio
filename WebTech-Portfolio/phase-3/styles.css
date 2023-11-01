@@ -8,9 +8,12 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #000; 
+    z-index: 1000;
 }
 nav {
     border-bottom: 2px solid #000;
+    z-index: 900;
+    padding-top: 10px;
 }
 h1 {
     font-size: 30px; 
@@ -123,7 +126,6 @@ img {
     align-items: center; 
     list-style-type: none; 
 }
-
 .centered-list li {
     display: inline; 
     margin-right: 10px; 
@@ -131,7 +133,6 @@ img {
 figure {
     display: inline-block;
     position: relative;
-    grid-column: span 2;
 }
 figcaption {
     bottom: 0;
@@ -171,6 +172,12 @@ figure {
     }
     footer p {
         font-size: 9px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    figcaption {
+        margin-top: 38px;
     }
 }
 @media (min-width: 766px) {
