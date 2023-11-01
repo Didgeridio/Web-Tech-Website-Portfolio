@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e52afb8-ccf0-4580-9bd8-068ebaf0ce3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/ProjectSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Web-Tech-Website-Portfolio/FileContentIndex/d85fb687-9791-48ac-b85c-19d644143cb8.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Web-Tech-Website-Portfolio/config/applicationhost.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/Web-Tech-Website-Portfolio/v17/.wsuo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/assets/img/air-conditioner-meme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/assets/img/boomer-meme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/assets/img/programmer-sleeping-meme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebTech-Portfolio/assets/img/user-client-error.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +84,7 @@
       <workItem from="1698565411294" duration="193000" />
       <workItem from="1698565646696" duration="684000" />
       <workItem from="1698566356569" duration="224000" />
+      <workItem from="1698737915293" duration="1279000" />
     </task>
     <servers />
   </component>

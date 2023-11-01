@@ -26,7 +26,7 @@ h2 {
 }
 .content-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 34%;
     grid-gap: 10px;
 }
 main {
@@ -111,7 +111,41 @@ ul li a:first-child::before {
     content: ""; 
 }
 ul li a {
-    text-decoration: none; /* Remove underlines from links if you want */
+    text-decoration: none; 
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+}
+.centered-list {
+    display: flex;
+    align-items: center; 
+    list-style-type: none; 
+}
+
+.centered-list li {
+    display: inline; 
+    margin-right: 10px; 
+}
+figure {
+    display: inline-block;
+    position: relative;
+    grid-column: span 2;
+}
+figcaption {
+    bottom: 0;
+    top:0;
+    transform: translateX(12.5%) translateY(-100%);
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 0 auto;
+}
+figure {
+    max-width: 100%;
 }
 @media (max-width: 767px) {
     aside {
@@ -131,6 +165,12 @@ ul li a {
     }
     main {
         padding-top: 125px;
+    }
+    img {
+        width: 300px;
+    }
+    footer p {
+        font-size: 9px;
     }
 }
 @media (min-width: 766px) {
