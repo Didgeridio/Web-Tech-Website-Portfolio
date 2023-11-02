@@ -1,5 +1,5 @@
 .top-header {
-    background-color: #333; 
+    background-color: #103183; 
     color: #fff;
     padding: 10px; 
     width: 100%;
@@ -21,6 +21,13 @@ h1 {
 h2 {
     font-size: 26px;
 }
+article h3 {
+    background-color: #103183;
+    color:#fff;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+}
 .hamburger-menu {
     font-size: 46px;
     cursor: pointer;
@@ -36,6 +43,7 @@ main {
     padding: 20px;
     padding-top: 80px; 
     align-items: start;
+    background-color: rgb(214, 214, 214);
 }
 header p {
     font-size: 14px; 
@@ -43,6 +51,9 @@ header p {
 article {
     border: 2px solid #000;
     margin-bottom: 10px;
+    background-color: #ffffff;
+}
+article p {
     padding-left: 5px;
     padding-right: 5px; 
 }
@@ -65,6 +76,7 @@ aside section:nth-child(1) {
     border-bottom: 2px solid #000;
     border-left: 2px solid #000;
     border-right: 2px solid #000;
+    background-color: #ffffff;
 }
 .aside-sections h3 {
     margin-top: 0px;
@@ -72,7 +84,7 @@ aside section:nth-child(1) {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    background-color: #333; 
+    background-color: #103183; 
     color: #fff;
 }
 .aside-sections p {
@@ -87,16 +99,19 @@ aside section:nth-child(1) {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
-    background-color: lightgray; 
+    background-color: #ecc6d7ad; 
 }  
 .bottom-footer {
-    background-color: #333; 
+    background-color: #103183; 
     color: #fff; 
     padding: 10px; 
     border-top: 2px solid #000; 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.centered-list a {
+    color:#ffffff
 }
 footer p {
     font-size: 14px;
@@ -185,15 +200,18 @@ figure {
         display:none;
     }
     main {
-        width: 80%; /* specified in Phase 1 document wireframes to be 960px but phase 2 requested 70-90%*/
         margin: 0 auto;
         padding-top: 150px;
+    }
+    .main-container {
+        width: 80%; /* specified in Phase 1 document wireframes to be 960px but phase 2 requested 70-90%*/
+        margin: 0 auto;
     }
     nav {
         position: fixed;
         top: 80px;
         width:100%;
-        background-color: #fff;
+        background-color: #63a1e9;
     }
 }
 
