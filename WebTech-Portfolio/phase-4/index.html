@@ -147,7 +147,7 @@
                     </header>
                     <div>
                         <form action="process.php" method="post">
-                            <label id="foodItem">Find Macros of any food, default to per 100g:</label>
+                            <label id="foodItem">Find Macros of any food, default is per 100g:</label>
                             <div class="row">
                                 <div class="column-80">
                                     <input type="text" id="foodItemTextBox" placeholder="Input a food...">
@@ -156,7 +156,52 @@
                                     <button type="button" id="searchButton">Search</button><br>
                                 </div>
                             </div>
-                            <label id="nutritionResponseLabel">Food Item's Macros:</label>
+                            <table>
+                                <tr>
+                                    <td>Serving Size</td>
+                                    <td id="servingSize">0g</td>
+                                </tr>
+                                <tr>
+                                    <td>Calories</td>
+                                    <td id="kCal">0kcal</td>
+                                </tr>
+                                <tr>
+                                    <td>Protein</td>
+                                    <td id="protein">0g</td>
+                                </tr>
+                                <tr>
+                                    <td>Carbohydrates</td>
+                                    <td id="carbs">0g</td>
+                                </tr>
+                                <tr>
+                                    <td>Cholesterol</td>
+                                    <td id="cholesterol">0mg</td>
+                                </tr>
+                                <tr>
+                                    <td>Total Fat</td>
+                                    <td id="totalFat">0g</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturated Fat</td>
+                                    <td id="saturatedFat">0g</td>
+                                </tr>
+                                <tr>
+                                    <td>Fiber</td>
+                                    <td id="fiber">0g</td>
+                                </tr>
+                                <tr>
+                                    <td>Potassium</td>
+                                    <td id="potassium">0mg</td>
+                                </tr>
+                                <tr>
+                                    <td>Sodium</td>
+                                    <td id="sodium">0mg</td>
+                                </tr>
+                                <tr>
+                                    <td>Sugar</td>
+                                    <td id="sugar">0g</td>
+                                </tr>
+                            </table>
                         </form>
                     </div>
                 </section>
@@ -213,5 +258,6 @@
         </li>
     </ul>
 </footer>
+<script src="index.js"></script>
 </body>
 </html>

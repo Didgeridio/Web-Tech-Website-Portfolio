@@ -104,6 +104,7 @@ label {
     padding: 12px 12px 12px 0;
     margin-left: 8px;
     display:inline-block;
+    font-size: 20px;
 } 
 input[type=text] {
     width: 100%;
@@ -134,6 +135,21 @@ button[type=button] {
     content: "";
     clear: both;
     display: table;
+}
+.aside-sections table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.aside-sections th, .aside-sections td {
+    padding: 5px;
+    font-size: 18px; 
+}
+.aside-sections td:last-child {
+    font-size: 18px;
 }
 .bottom-footer {
     background-color: #103183; 
