@@ -4,7 +4,6 @@ const API_KEY = "qRzyHjhxcNNlVY1r0VWINQ==enIAfW3IRTXLVN60";
 document.getElementById("searchButton").onclick = function(){
 
     foodItem = document.getElementById("foodItemTextBox").value;
-    console.log(foodItem);
     fetch('https://api.api-ninjas.com/v1/nutrition?query=' + foodItem, {
     method: 'GET',
     headers: {
@@ -14,7 +13,6 @@ document.getElementById("searchButton").onclick = function(){
     })
     .then(response => response.json())
     .then(result => {
-        console.log(result);
         let foodInfo = result[0];
         let calories = foodInfo.calories;
         let carbohydrates = foodInfo.carbohydrates_total_g;
@@ -27,9 +25,6 @@ document.getElementById("searchButton").onclick = function(){
         let serving_size = foodInfo.serving_size_g;
         let sodium = foodInfo.sodium_mg;
         let sugar = foodInfo.sugar_g;
-        console.log(calories);
-        console.log(carbohydrates);
-        console.log(protein);
         document.getElementById("servingSize").innerHTML = serving_size + "g";
         document.getElementById("kCal").innerHTML = calories + "kcal";  
         document.getElementById("protein").innerHTML = protein + "g"; 

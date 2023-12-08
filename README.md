@@ -12,3 +12,5 @@ I will be using horizontal card components to manage icons with text close by.
 Vertical card components will manage my 'articles' and similiar sections
 I will be using navigation components from another site.
 The footer component I will also need.
+
+Tested phase 5 final version Chrome and Firefox.
